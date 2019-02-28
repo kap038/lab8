@@ -3,11 +3,6 @@ function initCamera() {
   capture($('#camera-video'),
          $('#camera-canvas'),
          $('#camera-button'));
-
-  // For Reference:
-  // capture($('#camera-video'),
-  //       $('#camera-canvas'),
-  //       $('#camera-button'));
 }
 
 function capture(video, canvas, snapshotButton) {
